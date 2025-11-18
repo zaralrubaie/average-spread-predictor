@@ -8,7 +8,6 @@ A machine learning project that predicts the **average price spread** of fruits 
 
 - Predict average spread for any fruit or vegetable using farm and city prices.
 - Simple and interactive Gradio interface.
-- Logs every input and prediction to `prediction_log.csv`.
 - Calculates derived features (spread per city) automatically.
 
 ## Machine Learning Workflow
@@ -54,9 +53,8 @@ A machine learning project that predicts the **average price spread** of fruits 
      R²: 0.9769
      ```
 
-7. **Prediction & Logging**
+7. **Prediction**
    - Gradio interface for interactive predictions.
-   - All inputs and predicted outputs are logged in `prediction_log.csv`.
 ---
 
 ## Dataset
@@ -84,7 +82,6 @@ cd average-spread-predictor
 pip install -r requirements.txt
 ````
 ## Usage
-
 Run the Gradio app:
 ````
 fruit and veg data analysis
